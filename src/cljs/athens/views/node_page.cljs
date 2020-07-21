@@ -4,7 +4,7 @@
     [athens.db :as db]
     [athens.parse-renderer :as parse-renderer]
     [athens.patterns :as patterns]
-    [athens.router :refer [navigate-uid]]
+    [athens.router :refer [navigate-uid navigate]]
     [athens.style :refer [color]]
     [athens.views.blocks :refer [block-el]]
     [athens.views.breadcrumbs :refer [breadcrumbs-list breadcrumb]]
