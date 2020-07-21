@@ -283,6 +283,11 @@
       {:transact! [{:db/id -1 :node/title title :block/uid uid :create/time now :edit/time now :block/children [child]}]
        :dispatch [:editing/uid child-uid]})))
 
+(reg-event-fx
+ :page/delete
+ (fn [_ [_ uid]]
+   (js/console.log uid)
+   {:transact! [[:db/retract [:block/uid uid] :block/uid]]}))
 
 (reg-event-fx
   :page/add-shortcut

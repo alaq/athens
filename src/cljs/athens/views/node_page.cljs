@@ -245,7 +245,7 @@
                   [:> mui-icons/Bookmark]
                   [:span "Add Shortcut"]]])
               [:hr (use-style menu-separator-style)]
-              [button {:disabled true}
+              [button {:on-click #(dispatch [:page/delete uid])}
                [:<> [:> mui-icons/Delete] [:span "Delete Page"]]]]])
           (parse-renderer/parse-and-render title uid)]
 
