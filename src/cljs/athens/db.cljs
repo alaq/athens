@@ -249,6 +249,13 @@
           (recur (get ch (dec n))))))))
 
 
+(defn get-children-recursively
+  "Get list of children UIDs for given block ID"
+  [id]
+  (let [document (->> @(pull dsdb '[:block/order :block/uid {:block/children ...}] id))]
+    (map :block/uid (tree-seq :block/children :block/children document))))
+
+
 (defn re-case-insensitive
   "More options here https://clojuredocs.org/clojure.core/re-pattern"
   [query]
