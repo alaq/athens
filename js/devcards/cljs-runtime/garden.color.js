@@ -42,12 +42,12 @@ var this__4439__auto____$1 = this;
 return this__4439__auto____$1.cljs$core$ILookup$_lookup$arity$3(null,k__4440__auto__,null);
 }));
 
-(garden.color.CSSColor.prototype.cljs$core$ILookup$_lookup$arity$3 = (function (this__4441__auto__,k33390,else__4442__auto__){
+(garden.color.CSSColor.prototype.cljs$core$ILookup$_lookup$arity$3 = (function (this__4441__auto__,k39839,else__4442__auto__){
 var self__ = this;
 var this__4441__auto____$1 = this;
-var G__33401 = k33390;
-var G__33401__$1 = (((G__33401 instanceof cljs.core.Keyword))?G__33401.fqn:null);
-switch (G__33401__$1) {
+var G__39849 = k39839;
+var G__39849__$1 = (((G__39849 instanceof cljs.core.Keyword))?G__39849.fqn:null);
+switch (G__39849__$1) {
 case "red":
 return self__.red;
 
@@ -77,7 +77,7 @@ return self__.alpha;
 
 break;
 default:
-return cljs.core.get.cljs$core$IFn$_invoke$arity$3(self__.__extmap,k33390,else__4442__auto__);
+return cljs.core.get.cljs$core$IFn$_invoke$arity$3(self__.__extmap,k39839,else__4442__auto__);
 
 }
 }));
@@ -85,10 +85,10 @@ return cljs.core.get.cljs$core$IFn$_invoke$arity$3(self__.__extmap,k33390,else__
 (garden.color.CSSColor.prototype.cljs$core$IKVReduce$_kv_reduce$arity$3 = (function (this__4458__auto__,f__4459__auto__,init__4460__auto__){
 var self__ = this;
 var this__4458__auto____$1 = this;
-return cljs.core.reduce.cljs$core$IFn$_invoke$arity$3((function (ret__4461__auto__,p__33402){
-var vec__33403 = p__33402;
-var k__4462__auto__ = cljs.core.nth.cljs$core$IFn$_invoke$arity$3(vec__33403,(0),null);
-var v__4463__auto__ = cljs.core.nth.cljs$core$IFn$_invoke$arity$3(vec__33403,(1),null);
+return cljs.core.reduce.cljs$core$IFn$_invoke$arity$3((function (ret__4461__auto__,p__39850){
+var vec__39851 = p__39850;
+var k__4462__auto__ = cljs.core.nth.cljs$core$IFn$_invoke$arity$3(vec__39851,(0),null);
+var v__4463__auto__ = cljs.core.nth.cljs$core$IFn$_invoke$arity$3(vec__39851,(1),null);
 return (f__4459__auto__.cljs$core$IFn$_invoke$arity$3 ? f__4459__auto__.cljs$core$IFn$_invoke$arity$3(ret__4461__auto__,k__4462__auto__,v__4463__auto__) : f__4459__auto__.call(null,ret__4461__auto__,k__4462__auto__,v__4463__auto__));
 }),init__4460__auto__,this__4458__auto____$1);
 }));
@@ -102,10 +102,10 @@ return cljs.core.pr_sequential_writer(writer__4454__auto__,cljs.core.pr_writer,"
 return cljs.core.pr_sequential_writer(writer__4454__auto__,pr_pair__4456__auto__,"#garden.color.CSSColor{",", ","}",opts__4455__auto__,cljs.core.concat.cljs$core$IFn$_invoke$arity$2(new cljs.core.PersistentVector(null, 7, 5, cljs.core.PersistentVector.EMPTY_NODE, [(new cljs.core.PersistentVector(null,2,(5),cljs.core.PersistentVector.EMPTY_NODE,[new cljs.core.Keyword(null,"red","red",-969428204),self__.red],null)),(new cljs.core.PersistentVector(null,2,(5),cljs.core.PersistentVector.EMPTY_NODE,[new cljs.core.Keyword(null,"green","green",-945526839),self__.green],null)),(new cljs.core.PersistentVector(null,2,(5),cljs.core.PersistentVector.EMPTY_NODE,[new cljs.core.Keyword(null,"blue","blue",-622100620),self__.blue],null)),(new cljs.core.PersistentVector(null,2,(5),cljs.core.PersistentVector.EMPTY_NODE,[new cljs.core.Keyword(null,"hue","hue",-508078848),self__.hue],null)),(new cljs.core.PersistentVector(null,2,(5),cljs.core.PersistentVector.EMPTY_NODE,[new cljs.core.Keyword(null,"saturation","saturation",-14247929),self__.saturation],null)),(new cljs.core.PersistentVector(null,2,(5),cljs.core.PersistentVector.EMPTY_NODE,[new cljs.core.Keyword(null,"lightness","lightness",-2040901930),self__.lightness],null)),(new cljs.core.PersistentVector(null,2,(5),cljs.core.PersistentVector.EMPTY_NODE,[new cljs.core.Keyword(null,"alpha","alpha",-1574982441),self__.alpha],null))], null),self__.__extmap));
 }));
 
-(garden.color.CSSColor.prototype.cljs$core$IIterable$_iterator$arity$1 = (function (G__33389){
+(garden.color.CSSColor.prototype.cljs$core$IIterable$_iterator$arity$1 = (function (G__39838){
 var self__ = this;
-var G__33389__$1 = this;
-return (new cljs.core.RecordIter((0),G__33389__$1,7,new cljs.core.PersistentVector(null, 7, 5, cljs.core.PersistentVector.EMPTY_NODE, [new cljs.core.Keyword(null,"red","red",-969428204),new cljs.core.Keyword(null,"green","green",-945526839),new cljs.core.Keyword(null,"blue","blue",-622100620),new cljs.core.Keyword(null,"hue","hue",-508078848),new cljs.core.Keyword(null,"saturation","saturation",-14247929),new cljs.core.Keyword(null,"lightness","lightness",-2040901930),new cljs.core.Keyword(null,"alpha","alpha",-1574982441)], null),(cljs.core.truth_(self__.__extmap)?cljs.core._iterator(self__.__extmap):cljs.core.nil_iter())));
+var G__39838__$1 = this;
+return (new cljs.core.RecordIter((0),G__39838__$1,7,new cljs.core.PersistentVector(null, 7, 5, cljs.core.PersistentVector.EMPTY_NODE, [new cljs.core.Keyword(null,"red","red",-969428204),new cljs.core.Keyword(null,"green","green",-945526839),new cljs.core.Keyword(null,"blue","blue",-622100620),new cljs.core.Keyword(null,"hue","hue",-508078848),new cljs.core.Keyword(null,"saturation","saturation",-14247929),new cljs.core.Keyword(null,"lightness","lightness",-2040901930),new cljs.core.Keyword(null,"alpha","alpha",-1574982441)], null),(cljs.core.truth_(self__.__extmap)?cljs.core._iterator(self__.__extmap):cljs.core.nil_iter())));
 }));
 
 (garden.color.CSSColor.prototype.cljs$core$IMeta$_meta$arity$1 = (function (this__4437__auto__){
@@ -133,10 +133,10 @@ var h__4297__auto__ = self__.__hash;
 if((!((h__4297__auto__ == null)))){
 return h__4297__auto__;
 } else {
-var h__4297__auto____$1 = (function (){var fexpr__33410 = (function (coll__4436__auto__){
+var h__4297__auto____$1 = (function (){var fexpr__39855 = (function (coll__4436__auto__){
 return (1154778435 ^ cljs.core.hash_unordered_coll(coll__4436__auto__));
 });
-return fexpr__33410(this__4435__auto____$1);
+return fexpr__39855(this__4435__auto____$1);
 })();
 (self__.__hash = h__4297__auto____$1);
 
@@ -144,10 +144,10 @@ return h__4297__auto____$1;
 }
 }));
 
-(garden.color.CSSColor.prototype.cljs$core$IEquiv$_equiv$arity$2 = (function (this33391,other33392){
+(garden.color.CSSColor.prototype.cljs$core$IEquiv$_equiv$arity$2 = (function (this39840,other39841){
 var self__ = this;
-var this33391__$1 = this;
-return (((!((other33392 == null)))) && ((this33391__$1.constructor === other33392.constructor)) && (cljs.core._EQ_.cljs$core$IFn$_invoke$arity$2(this33391__$1.red,other33392.red)) && (cljs.core._EQ_.cljs$core$IFn$_invoke$arity$2(this33391__$1.green,other33392.green)) && (cljs.core._EQ_.cljs$core$IFn$_invoke$arity$2(this33391__$1.blue,other33392.blue)) && (cljs.core._EQ_.cljs$core$IFn$_invoke$arity$2(this33391__$1.hue,other33392.hue)) && (cljs.core._EQ_.cljs$core$IFn$_invoke$arity$2(this33391__$1.saturation,other33392.saturation)) && (cljs.core._EQ_.cljs$core$IFn$_invoke$arity$2(this33391__$1.lightness,other33392.lightness)) && (cljs.core._EQ_.cljs$core$IFn$_invoke$arity$2(this33391__$1.alpha,other33392.alpha)) && (cljs.core._EQ_.cljs$core$IFn$_invoke$arity$2(this33391__$1.__extmap,other33392.__extmap)));
+var this39840__$1 = this;
+return (((!((other39841 == null)))) && ((this39840__$1.constructor === other39841.constructor)) && (cljs.core._EQ_.cljs$core$IFn$_invoke$arity$2(this39840__$1.red,other39841.red)) && (cljs.core._EQ_.cljs$core$IFn$_invoke$arity$2(this39840__$1.green,other39841.green)) && (cljs.core._EQ_.cljs$core$IFn$_invoke$arity$2(this39840__$1.blue,other39841.blue)) && (cljs.core._EQ_.cljs$core$IFn$_invoke$arity$2(this39840__$1.hue,other39841.hue)) && (cljs.core._EQ_.cljs$core$IFn$_invoke$arity$2(this39840__$1.saturation,other39841.saturation)) && (cljs.core._EQ_.cljs$core$IFn$_invoke$arity$2(this39840__$1.lightness,other39841.lightness)) && (cljs.core._EQ_.cljs$core$IFn$_invoke$arity$2(this39840__$1.alpha,other39841.alpha)) && (cljs.core._EQ_.cljs$core$IFn$_invoke$arity$2(this39840__$1.__extmap,other39841.__extmap)));
 }));
 
 (garden.color.CSSColor.prototype.cljs$core$IMap$_dissoc$arity$2 = (function (this__4448__auto__,k__4449__auto__){
@@ -160,54 +160,54 @@ return (new garden.color.CSSColor(self__.red,self__.green,self__.blue,self__.hue
 }
 }));
 
-(garden.color.CSSColor.prototype.cljs$core$IAssociative$_assoc$arity$3 = (function (this__4446__auto__,k__4447__auto__,G__33389){
+(garden.color.CSSColor.prototype.cljs$core$IAssociative$_assoc$arity$3 = (function (this__4446__auto__,k__4447__auto__,G__39838){
 var self__ = this;
 var this__4446__auto____$1 = this;
-var pred__33414 = cljs.core.keyword_identical_QMARK_;
-var expr__33415 = k__4447__auto__;
-if(cljs.core.truth_((function (){var G__33417 = new cljs.core.Keyword(null,"red","red",-969428204);
-var G__33418 = expr__33415;
-return (pred__33414.cljs$core$IFn$_invoke$arity$2 ? pred__33414.cljs$core$IFn$_invoke$arity$2(G__33417,G__33418) : pred__33414.call(null,G__33417,G__33418));
+var pred__39856 = cljs.core.keyword_identical_QMARK_;
+var expr__39857 = k__4447__auto__;
+if(cljs.core.truth_((function (){var G__39859 = new cljs.core.Keyword(null,"red","red",-969428204);
+var G__39860 = expr__39857;
+return (pred__39856.cljs$core$IFn$_invoke$arity$2 ? pred__39856.cljs$core$IFn$_invoke$arity$2(G__39859,G__39860) : pred__39856.call(null,G__39859,G__39860));
 })())){
-return (new garden.color.CSSColor(G__33389,self__.green,self__.blue,self__.hue,self__.saturation,self__.lightness,self__.alpha,self__.__meta,self__.__extmap,null));
+return (new garden.color.CSSColor(G__39838,self__.green,self__.blue,self__.hue,self__.saturation,self__.lightness,self__.alpha,self__.__meta,self__.__extmap,null));
 } else {
-if(cljs.core.truth_((function (){var G__33419 = new cljs.core.Keyword(null,"green","green",-945526839);
-var G__33420 = expr__33415;
-return (pred__33414.cljs$core$IFn$_invoke$arity$2 ? pred__33414.cljs$core$IFn$_invoke$arity$2(G__33419,G__33420) : pred__33414.call(null,G__33419,G__33420));
+if(cljs.core.truth_((function (){var G__39861 = new cljs.core.Keyword(null,"green","green",-945526839);
+var G__39862 = expr__39857;
+return (pred__39856.cljs$core$IFn$_invoke$arity$2 ? pred__39856.cljs$core$IFn$_invoke$arity$2(G__39861,G__39862) : pred__39856.call(null,G__39861,G__39862));
 })())){
-return (new garden.color.CSSColor(self__.red,G__33389,self__.blue,self__.hue,self__.saturation,self__.lightness,self__.alpha,self__.__meta,self__.__extmap,null));
+return (new garden.color.CSSColor(self__.red,G__39838,self__.blue,self__.hue,self__.saturation,self__.lightness,self__.alpha,self__.__meta,self__.__extmap,null));
 } else {
-if(cljs.core.truth_((function (){var G__33421 = new cljs.core.Keyword(null,"blue","blue",-622100620);
-var G__33422 = expr__33415;
-return (pred__33414.cljs$core$IFn$_invoke$arity$2 ? pred__33414.cljs$core$IFn$_invoke$arity$2(G__33421,G__33422) : pred__33414.call(null,G__33421,G__33422));
+if(cljs.core.truth_((function (){var G__39863 = new cljs.core.Keyword(null,"blue","blue",-622100620);
+var G__39864 = expr__39857;
+return (pred__39856.cljs$core$IFn$_invoke$arity$2 ? pred__39856.cljs$core$IFn$_invoke$arity$2(G__39863,G__39864) : pred__39856.call(null,G__39863,G__39864));
 })())){
-return (new garden.color.CSSColor(self__.red,self__.green,G__33389,self__.hue,self__.saturation,self__.lightness,self__.alpha,self__.__meta,self__.__extmap,null));
+return (new garden.color.CSSColor(self__.red,self__.green,G__39838,self__.hue,self__.saturation,self__.lightness,self__.alpha,self__.__meta,self__.__extmap,null));
 } else {
-if(cljs.core.truth_((function (){var G__33423 = new cljs.core.Keyword(null,"hue","hue",-508078848);
-var G__33424 = expr__33415;
-return (pred__33414.cljs$core$IFn$_invoke$arity$2 ? pred__33414.cljs$core$IFn$_invoke$arity$2(G__33423,G__33424) : pred__33414.call(null,G__33423,G__33424));
+if(cljs.core.truth_((function (){var G__39865 = new cljs.core.Keyword(null,"hue","hue",-508078848);
+var G__39866 = expr__39857;
+return (pred__39856.cljs$core$IFn$_invoke$arity$2 ? pred__39856.cljs$core$IFn$_invoke$arity$2(G__39865,G__39866) : pred__39856.call(null,G__39865,G__39866));
 })())){
-return (new garden.color.CSSColor(self__.red,self__.green,self__.blue,G__33389,self__.saturation,self__.lightness,self__.alpha,self__.__meta,self__.__extmap,null));
+return (new garden.color.CSSColor(self__.red,self__.green,self__.blue,G__39838,self__.saturation,self__.lightness,self__.alpha,self__.__meta,self__.__extmap,null));
 } else {
-if(cljs.core.truth_((function (){var G__33425 = new cljs.core.Keyword(null,"saturation","saturation",-14247929);
-var G__33426 = expr__33415;
-return (pred__33414.cljs$core$IFn$_invoke$arity$2 ? pred__33414.cljs$core$IFn$_invoke$arity$2(G__33425,G__33426) : pred__33414.call(null,G__33425,G__33426));
+if(cljs.core.truth_((function (){var G__39867 = new cljs.core.Keyword(null,"saturation","saturation",-14247929);
+var G__39868 = expr__39857;
+return (pred__39856.cljs$core$IFn$_invoke$arity$2 ? pred__39856.cljs$core$IFn$_invoke$arity$2(G__39867,G__39868) : pred__39856.call(null,G__39867,G__39868));
 })())){
-return (new garden.color.CSSColor(self__.red,self__.green,self__.blue,self__.hue,G__33389,self__.lightness,self__.alpha,self__.__meta,self__.__extmap,null));
+return (new garden.color.CSSColor(self__.red,self__.green,self__.blue,self__.hue,G__39838,self__.lightness,self__.alpha,self__.__meta,self__.__extmap,null));
 } else {
-if(cljs.core.truth_((function (){var G__33427 = new cljs.core.Keyword(null,"lightness","lightness",-2040901930);
-var G__33428 = expr__33415;
-return (pred__33414.cljs$core$IFn$_invoke$arity$2 ? pred__33414.cljs$core$IFn$_invoke$arity$2(G__33427,G__33428) : pred__33414.call(null,G__33427,G__33428));
+if(cljs.core.truth_((function (){var G__39869 = new cljs.core.Keyword(null,"lightness","lightness",-2040901930);
+var G__39870 = expr__39857;
+return (pred__39856.cljs$core$IFn$_invoke$arity$2 ? pred__39856.cljs$core$IFn$_invoke$arity$2(G__39869,G__39870) : pred__39856.call(null,G__39869,G__39870));
 })())){
-return (new garden.color.CSSColor(self__.red,self__.green,self__.blue,self__.hue,self__.saturation,G__33389,self__.alpha,self__.__meta,self__.__extmap,null));
+return (new garden.color.CSSColor(self__.red,self__.green,self__.blue,self__.hue,self__.saturation,G__39838,self__.alpha,self__.__meta,self__.__extmap,null));
 } else {
-if(cljs.core.truth_((function (){var G__33429 = new cljs.core.Keyword(null,"alpha","alpha",-1574982441);
-var G__33430 = expr__33415;
-return (pred__33414.cljs$core$IFn$_invoke$arity$2 ? pred__33414.cljs$core$IFn$_invoke$arity$2(G__33429,G__33430) : pred__33414.call(null,G__33429,G__33430));
+if(cljs.core.truth_((function (){var G__39871 = new cljs.core.Keyword(null,"alpha","alpha",-1574982441);
+var G__39872 = expr__39857;
+return (pred__39856.cljs$core$IFn$_invoke$arity$2 ? pred__39856.cljs$core$IFn$_invoke$arity$2(G__39871,G__39872) : pred__39856.call(null,G__39871,G__39872));
 })())){
-return (new garden.color.CSSColor(self__.red,self__.green,self__.blue,self__.hue,self__.saturation,self__.lightness,G__33389,self__.__meta,self__.__extmap,null));
+return (new garden.color.CSSColor(self__.red,self__.green,self__.blue,self__.hue,self__.saturation,self__.lightness,G__39838,self__.__meta,self__.__extmap,null));
 } else {
-return (new garden.color.CSSColor(self__.red,self__.green,self__.blue,self__.hue,self__.saturation,self__.lightness,self__.alpha,self__.__meta,cljs.core.assoc.cljs$core$IFn$_invoke$arity$3(self__.__extmap,k__4447__auto__,G__33389),null));
+return (new garden.color.CSSColor(self__.red,self__.green,self__.blue,self__.hue,self__.saturation,self__.lightness,self__.alpha,self__.__meta,cljs.core.assoc.cljs$core$IFn$_invoke$arity$3(self__.__extmap,k__4447__auto__,G__39838),null));
 }
 }
 }
@@ -223,10 +223,10 @@ var this__4451__auto____$1 = this;
 return cljs.core.seq(cljs.core.concat.cljs$core$IFn$_invoke$arity$2(new cljs.core.PersistentVector(null, 7, 5, cljs.core.PersistentVector.EMPTY_NODE, [(new cljs.core.MapEntry(new cljs.core.Keyword(null,"red","red",-969428204),self__.red,null)),(new cljs.core.MapEntry(new cljs.core.Keyword(null,"green","green",-945526839),self__.green,null)),(new cljs.core.MapEntry(new cljs.core.Keyword(null,"blue","blue",-622100620),self__.blue,null)),(new cljs.core.MapEntry(new cljs.core.Keyword(null,"hue","hue",-508078848),self__.hue,null)),(new cljs.core.MapEntry(new cljs.core.Keyword(null,"saturation","saturation",-14247929),self__.saturation,null)),(new cljs.core.MapEntry(new cljs.core.Keyword(null,"lightness","lightness",-2040901930),self__.lightness,null)),(new cljs.core.MapEntry(new cljs.core.Keyword(null,"alpha","alpha",-1574982441),self__.alpha,null))], null),self__.__extmap));
 }));
 
-(garden.color.CSSColor.prototype.cljs$core$IWithMeta$_with_meta$arity$2 = (function (this__4438__auto__,G__33389){
+(garden.color.CSSColor.prototype.cljs$core$IWithMeta$_with_meta$arity$2 = (function (this__4438__auto__,G__39838){
 var self__ = this;
 var this__4438__auto____$1 = this;
-return (new garden.color.CSSColor(self__.red,self__.green,self__.blue,self__.hue,self__.saturation,self__.lightness,self__.alpha,G__33389,self__.__extmap,self__.__hash));
+return (new garden.color.CSSColor(self__.red,self__.green,self__.blue,self__.hue,self__.saturation,self__.lightness,self__.alpha,G__39838,self__.__extmap,self__.__hash));
 }));
 
 (garden.color.CSSColor.prototype.cljs$core$ICollection$_conj$arity$2 = (function (this__4444__auto__,entry__4445__auto__){
@@ -242,8 +242,8 @@ return cljs.core.reduce.cljs$core$IFn$_invoke$arity$3(cljs.core._conj,this__4444
 (garden.color.CSSColor.prototype.call = (function (unused__10555__auto__){
 var self__ = this;
 var self__ = this;
-var G__33434 = (arguments.length - (1));
-switch (G__33434) {
+var G__39877 = (arguments.length - (1));
+switch (G__39877) {
 case (0):
 return self__.cljs$core$IFn$_invoke$arity$0();
 
@@ -262,10 +262,10 @@ throw (new Error(["Invalid arity: ",cljs.core.str.cljs$core$IFn$_invoke$arity$1(
 }
 }));
 
-(garden.color.CSSColor.prototype.apply = (function (self__,args33398){
+(garden.color.CSSColor.prototype.apply = (function (self__,args39847){
 var self__ = this;
 var self____$1 = this;
-return self____$1.call.apply(self____$1,[self____$1].concat(cljs.core.aclone(args33398)));
+return self____$1.call.apply(self____$1,[self____$1].concat(cljs.core.aclone(args39847)));
 }));
 
 (garden.color.CSSColor.prototype.cljs$core$IFn$_invoke$arity$0 = (function (){
@@ -310,15 +310,15 @@ return (new garden.color.CSSColor(red,green,blue,hue,saturation,lightness,alpha,
 /**
  * Factory function for garden.color/CSSColor, taking a map of keywords to field values.
  */
-garden.color.map__GT_CSSColor = (function garden$color$map__GT_CSSColor(G__33394){
-var extmap__4478__auto__ = (function (){var G__33435 = cljs.core.dissoc.cljs$core$IFn$_invoke$arity$variadic(G__33394,new cljs.core.Keyword(null,"red","red",-969428204),cljs.core.prim_seq.cljs$core$IFn$_invoke$arity$2([new cljs.core.Keyword(null,"green","green",-945526839),new cljs.core.Keyword(null,"blue","blue",-622100620),new cljs.core.Keyword(null,"hue","hue",-508078848),new cljs.core.Keyword(null,"saturation","saturation",-14247929),new cljs.core.Keyword(null,"lightness","lightness",-2040901930),new cljs.core.Keyword(null,"alpha","alpha",-1574982441)], 0));
-if(cljs.core.record_QMARK_(G__33394)){
-return cljs.core.into.cljs$core$IFn$_invoke$arity$2(cljs.core.PersistentArrayMap.EMPTY,G__33435);
+garden.color.map__GT_CSSColor = (function garden$color$map__GT_CSSColor(G__39843){
+var extmap__4478__auto__ = (function (){var G__39881 = cljs.core.dissoc.cljs$core$IFn$_invoke$arity$variadic(G__39843,new cljs.core.Keyword(null,"red","red",-969428204),cljs.core.prim_seq.cljs$core$IFn$_invoke$arity$2([new cljs.core.Keyword(null,"green","green",-945526839),new cljs.core.Keyword(null,"blue","blue",-622100620),new cljs.core.Keyword(null,"hue","hue",-508078848),new cljs.core.Keyword(null,"saturation","saturation",-14247929),new cljs.core.Keyword(null,"lightness","lightness",-2040901930),new cljs.core.Keyword(null,"alpha","alpha",-1574982441)], 0));
+if(cljs.core.record_QMARK_(G__39843)){
+return cljs.core.into.cljs$core$IFn$_invoke$arity$2(cljs.core.PersistentArrayMap.EMPTY,G__39881);
 } else {
-return G__33435;
+return G__39881;
 }
 })();
-return (new garden.color.CSSColor(new cljs.core.Keyword(null,"red","red",-969428204).cljs$core$IFn$_invoke$arity$1(G__33394),new cljs.core.Keyword(null,"green","green",-945526839).cljs$core$IFn$_invoke$arity$1(G__33394),new cljs.core.Keyword(null,"blue","blue",-622100620).cljs$core$IFn$_invoke$arity$1(G__33394),new cljs.core.Keyword(null,"hue","hue",-508078848).cljs$core$IFn$_invoke$arity$1(G__33394),new cljs.core.Keyword(null,"saturation","saturation",-14247929).cljs$core$IFn$_invoke$arity$1(G__33394),new cljs.core.Keyword(null,"lightness","lightness",-2040901930).cljs$core$IFn$_invoke$arity$1(G__33394),new cljs.core.Keyword(null,"alpha","alpha",-1574982441).cljs$core$IFn$_invoke$arity$1(G__33394),null,cljs.core.not_empty(extmap__4478__auto__),null));
+return (new garden.color.CSSColor(new cljs.core.Keyword(null,"red","red",-969428204).cljs$core$IFn$_invoke$arity$1(G__39843),new cljs.core.Keyword(null,"green","green",-945526839).cljs$core$IFn$_invoke$arity$1(G__39843),new cljs.core.Keyword(null,"blue","blue",-622100620).cljs$core$IFn$_invoke$arity$1(G__39843),new cljs.core.Keyword(null,"hue","hue",-508078848).cljs$core$IFn$_invoke$arity$1(G__39843),new cljs.core.Keyword(null,"saturation","saturation",-14247929).cljs$core$IFn$_invoke$arity$1(G__39843),new cljs.core.Keyword(null,"lightness","lightness",-2040901930).cljs$core$IFn$_invoke$arity$1(G__39843),new cljs.core.Keyword(null,"alpha","alpha",-1574982441).cljs$core$IFn$_invoke$arity$1(G__39843),null,cljs.core.not_empty(extmap__4478__auto__),null));
 });
 
 garden.color.as_color = garden.color.map__GT_CSSColor;
@@ -326,8 +326,8 @@ garden.color.as_color = garden.color.map__GT_CSSColor;
  * Create an RGB color.
  */
 garden.color.rgb = (function garden$color$rgb(var_args){
-var G__33438 = arguments.length;
-switch (G__33438) {
+var G__39887 = arguments.length;
+switch (G__39887) {
 case 1:
 return garden.color.rgb.cljs$core$IFn$_invoke$arity$1((arguments[(0)]));
 
@@ -342,17 +342,17 @@ throw (new Error(["Invalid arity: ",cljs.core.str.cljs$core$IFn$_invoke$arity$1(
 }
 });
 
-(garden.color.rgb.cljs$core$IFn$_invoke$arity$1 = (function (p__33439){
-var vec__33440 = p__33439;
-var r = cljs.core.nth.cljs$core$IFn$_invoke$arity$3(vec__33440,(0),null);
-var g = cljs.core.nth.cljs$core$IFn$_invoke$arity$3(vec__33440,(1),null);
-var b = cljs.core.nth.cljs$core$IFn$_invoke$arity$3(vec__33440,(2),null);
-var vs = vec__33440;
-if(cljs.core.every_QMARK_((function (p1__33436_SHARP_){
-return garden.util.between_QMARK_(p1__33436_SHARP_,(0),(255));
+(garden.color.rgb.cljs$core$IFn$_invoke$arity$1 = (function (p__39888){
+var vec__39889 = p__39888;
+var r = cljs.core.nth.cljs$core$IFn$_invoke$arity$3(vec__39889,(0),null);
+var g = cljs.core.nth.cljs$core$IFn$_invoke$arity$3(vec__39889,(1),null);
+var b = cljs.core.nth.cljs$core$IFn$_invoke$arity$3(vec__39889,(2),null);
+var vs = vec__39889;
+if(cljs.core.every_QMARK_((function (p1__39884_SHARP_){
+return garden.util.between_QMARK_(p1__39884_SHARP_,(0),(255));
 }),vs)){
-var G__33443 = new cljs.core.PersistentArrayMap(null, 3, [new cljs.core.Keyword(null,"red","red",-969428204),r,new cljs.core.Keyword(null,"green","green",-945526839),g,new cljs.core.Keyword(null,"blue","blue",-622100620),b], null);
-return (garden.color.as_color.cljs$core$IFn$_invoke$arity$1 ? garden.color.as_color.cljs$core$IFn$_invoke$arity$1(G__33443) : garden.color.as_color.call(null,G__33443));
+var G__39892 = new cljs.core.PersistentArrayMap(null, 3, [new cljs.core.Keyword(null,"red","red",-969428204),r,new cljs.core.Keyword(null,"green","green",-945526839),g,new cljs.core.Keyword(null,"blue","blue",-622100620),b], null);
+return (garden.color.as_color.cljs$core$IFn$_invoke$arity$1 ? garden.color.as_color.cljs$core$IFn$_invoke$arity$1(G__39892) : garden.color.as_color.call(null,G__39892));
 } else {
 throw cljs.core.ex_info.cljs$core$IFn$_invoke$arity$2("RGB values must be between 0 and 255",cljs.core.PersistentArrayMap.EMPTY);
 }
@@ -368,8 +368,8 @@ return garden.color.rgb.cljs$core$IFn$_invoke$arity$1(new cljs.core.PersistentVe
  * Create an RGBA color.
  */
 garden.color.rgba = (function garden$color$rgba(var_args){
-var G__33445 = arguments.length;
-switch (G__33445) {
+var G__39894 = arguments.length;
+switch (G__39894) {
 case 1:
 return garden.color.rgba.cljs$core$IFn$_invoke$arity$1((arguments[(0)]));
 
@@ -384,15 +384,15 @@ throw (new Error(["Invalid arity: ",cljs.core.str.cljs$core$IFn$_invoke$arity$1(
 }
 });
 
-(garden.color.rgba.cljs$core$IFn$_invoke$arity$1 = (function (p__33446){
-var vec__33447 = p__33446;
-var r = cljs.core.nth.cljs$core$IFn$_invoke$arity$3(vec__33447,(0),null);
-var g = cljs.core.nth.cljs$core$IFn$_invoke$arity$3(vec__33447,(1),null);
-var b = cljs.core.nth.cljs$core$IFn$_invoke$arity$3(vec__33447,(2),null);
-var a = cljs.core.nth.cljs$core$IFn$_invoke$arity$3(vec__33447,(3),null);
+(garden.color.rgba.cljs$core$IFn$_invoke$arity$1 = (function (p__39895){
+var vec__39896 = p__39895;
+var r = cljs.core.nth.cljs$core$IFn$_invoke$arity$3(vec__39896,(0),null);
+var g = cljs.core.nth.cljs$core$IFn$_invoke$arity$3(vec__39896,(1),null);
+var b = cljs.core.nth.cljs$core$IFn$_invoke$arity$3(vec__39896,(2),null);
+var a = cljs.core.nth.cljs$core$IFn$_invoke$arity$3(vec__39896,(3),null);
 if(garden.util.between_QMARK_(a,(0),(1))){
-var G__33450 = cljs.core.assoc.cljs$core$IFn$_invoke$arity$3(garden.color.rgb.cljs$core$IFn$_invoke$arity$1(new cljs.core.PersistentVector(null, 3, 5, cljs.core.PersistentVector.EMPTY_NODE, [r,g,b], null)),new cljs.core.Keyword(null,"alpha","alpha",-1574982441),a);
-return (garden.color.as_color.cljs$core$IFn$_invoke$arity$1 ? garden.color.as_color.cljs$core$IFn$_invoke$arity$1(G__33450) : garden.color.as_color.call(null,G__33450));
+var G__39899 = cljs.core.assoc.cljs$core$IFn$_invoke$arity$3(garden.color.rgb.cljs$core$IFn$_invoke$arity$1(new cljs.core.PersistentVector(null, 3, 5, cljs.core.PersistentVector.EMPTY_NODE, [r,g,b], null)),new cljs.core.Keyword(null,"alpha","alpha",-1574982441),a);
+return (garden.color.as_color.cljs$core$IFn$_invoke$arity$1 ? garden.color.as_color.cljs$core$IFn$_invoke$arity$1(G__39899) : garden.color.as_color.call(null,G__39899));
 } else {
 throw cljs.core.ex_info.cljs$core$IFn$_invoke$arity$2("Alpha value must be between 0 and 1",cljs.core.PersistentArrayMap.EMPTY);
 }
@@ -408,8 +408,8 @@ return garden.color.rgba.cljs$core$IFn$_invoke$arity$1(new cljs.core.PersistentV
  * Create an HSL color.
  */
 garden.color.hsl = (function garden$color$hsl(var_args){
-var G__33453 = arguments.length;
-switch (G__33453) {
+var G__39902 = arguments.length;
+switch (G__39902) {
 case 1:
 return garden.color.hsl.cljs$core$IFn$_invoke$arity$1((arguments[(0)]));
 
@@ -424,20 +424,20 @@ throw (new Error(["Invalid arity: ",cljs.core.str.cljs$core$IFn$_invoke$arity$1(
 }
 });
 
-(garden.color.hsl.cljs$core$IFn$_invoke$arity$1 = (function (p__33454){
-var vec__33455 = p__33454;
-var h = cljs.core.nth.cljs$core$IFn$_invoke$arity$3(vec__33455,(0),null);
-var s = cljs.core.nth.cljs$core$IFn$_invoke$arity$3(vec__33455,(1),null);
-var l = cljs.core.nth.cljs$core$IFn$_invoke$arity$3(vec__33455,(2),null);
-var vec__33458 = cljs.core.map.cljs$core$IFn$_invoke$arity$2((function (p1__33451_SHARP_){
-return cljs.core.get.cljs$core$IFn$_invoke$arity$3(p1__33451_SHARP_,new cljs.core.Keyword(null,"magnitude","magnitude",1924274222),p1__33451_SHARP_);
+(garden.color.hsl.cljs$core$IFn$_invoke$arity$1 = (function (p__39903){
+var vec__39904 = p__39903;
+var h = cljs.core.nth.cljs$core$IFn$_invoke$arity$3(vec__39904,(0),null);
+var s = cljs.core.nth.cljs$core$IFn$_invoke$arity$3(vec__39904,(1),null);
+var l = cljs.core.nth.cljs$core$IFn$_invoke$arity$3(vec__39904,(2),null);
+var vec__39907 = cljs.core.map.cljs$core$IFn$_invoke$arity$2((function (p1__39900_SHARP_){
+return cljs.core.get.cljs$core$IFn$_invoke$arity$3(p1__39900_SHARP_,new cljs.core.Keyword(null,"magnitude","magnitude",1924274222),p1__39900_SHARP_);
 }),new cljs.core.PersistentVector(null, 3, 5, cljs.core.PersistentVector.EMPTY_NODE, [h,s,l], null));
-var h__$1 = cljs.core.nth.cljs$core$IFn$_invoke$arity$3(vec__33458,(0),null);
-var s__$1 = cljs.core.nth.cljs$core$IFn$_invoke$arity$3(vec__33458,(1),null);
-var l__$1 = cljs.core.nth.cljs$core$IFn$_invoke$arity$3(vec__33458,(2),null);
+var h__$1 = cljs.core.nth.cljs$core$IFn$_invoke$arity$3(vec__39907,(0),null);
+var s__$1 = cljs.core.nth.cljs$core$IFn$_invoke$arity$3(vec__39907,(1),null);
+var l__$1 = cljs.core.nth.cljs$core$IFn$_invoke$arity$3(vec__39907,(2),null);
 if(((garden.util.between_QMARK_(s__$1,(0),(100))) && (garden.util.between_QMARK_(l__$1,(0),(100))))){
-var G__33463 = new cljs.core.PersistentArrayMap(null, 3, [new cljs.core.Keyword(null,"hue","hue",-508078848),cljs.core.mod(h__$1,(360)),new cljs.core.Keyword(null,"saturation","saturation",-14247929),s__$1,new cljs.core.Keyword(null,"lightness","lightness",-2040901930),l__$1], null);
-return (garden.color.as_color.cljs$core$IFn$_invoke$arity$1 ? garden.color.as_color.cljs$core$IFn$_invoke$arity$1(G__33463) : garden.color.as_color.call(null,G__33463));
+var G__39910 = new cljs.core.PersistentArrayMap(null, 3, [new cljs.core.Keyword(null,"hue","hue",-508078848),cljs.core.mod(h__$1,(360)),new cljs.core.Keyword(null,"saturation","saturation",-14247929),s__$1,new cljs.core.Keyword(null,"lightness","lightness",-2040901930),l__$1], null);
+return (garden.color.as_color.cljs$core$IFn$_invoke$arity$1 ? garden.color.as_color.cljs$core$IFn$_invoke$arity$1(G__39910) : garden.color.as_color.call(null,G__39910));
 } else {
 throw cljs.core.ex_info.cljs$core$IFn$_invoke$arity$2("Saturation and lightness must be between 0(%) and 100(%)",cljs.core.PersistentArrayMap.EMPTY);
 }
@@ -453,8 +453,8 @@ return garden.color.hsl.cljs$core$IFn$_invoke$arity$1(new cljs.core.PersistentVe
  * Create an HSLA color.
  */
 garden.color.hsla = (function garden$color$hsla(var_args){
-var G__33470 = arguments.length;
-switch (G__33470) {
+var G__39912 = arguments.length;
+switch (G__39912) {
 case 1:
 return garden.color.hsla.cljs$core$IFn$_invoke$arity$1((arguments[(0)]));
 
@@ -469,15 +469,15 @@ throw (new Error(["Invalid arity: ",cljs.core.str.cljs$core$IFn$_invoke$arity$1(
 }
 });
 
-(garden.color.hsla.cljs$core$IFn$_invoke$arity$1 = (function (p__33472){
-var vec__33473 = p__33472;
-var h = cljs.core.nth.cljs$core$IFn$_invoke$arity$3(vec__33473,(0),null);
-var s = cljs.core.nth.cljs$core$IFn$_invoke$arity$3(vec__33473,(1),null);
-var l = cljs.core.nth.cljs$core$IFn$_invoke$arity$3(vec__33473,(2),null);
-var a = cljs.core.nth.cljs$core$IFn$_invoke$arity$3(vec__33473,(3),null);
+(garden.color.hsla.cljs$core$IFn$_invoke$arity$1 = (function (p__39913){
+var vec__39914 = p__39913;
+var h = cljs.core.nth.cljs$core$IFn$_invoke$arity$3(vec__39914,(0),null);
+var s = cljs.core.nth.cljs$core$IFn$_invoke$arity$3(vec__39914,(1),null);
+var l = cljs.core.nth.cljs$core$IFn$_invoke$arity$3(vec__39914,(2),null);
+var a = cljs.core.nth.cljs$core$IFn$_invoke$arity$3(vec__39914,(3),null);
 if(garden.util.between_QMARK_(a,(0),(1))){
-var G__33476 = cljs.core.assoc.cljs$core$IFn$_invoke$arity$3(garden.color.hsl.cljs$core$IFn$_invoke$arity$1(new cljs.core.PersistentVector(null, 3, 5, cljs.core.PersistentVector.EMPTY_NODE, [h,s,l], null)),new cljs.core.Keyword(null,"alpha","alpha",-1574982441),a);
-return (garden.color.as_color.cljs$core$IFn$_invoke$arity$1 ? garden.color.as_color.cljs$core$IFn$_invoke$arity$1(G__33476) : garden.color.as_color.call(null,G__33476));
+var G__39917 = cljs.core.assoc.cljs$core$IFn$_invoke$arity$3(garden.color.hsl.cljs$core$IFn$_invoke$arity$1(new cljs.core.PersistentVector(null, 3, 5, cljs.core.PersistentVector.EMPTY_NODE, [h,s,l], null)),new cljs.core.Keyword(null,"alpha","alpha",-1574982441),a);
+return (garden.color.as_color.cljs$core$IFn$_invoke$arity$1 ? garden.color.as_color.cljs$core$IFn$_invoke$arity$1(G__39917) : garden.color.as_color.call(null,G__39917));
 } else {
 throw cljs.core.ex_info.cljs$core$IFn$_invoke$arity$2("Alpha value must be between 0 and 1",cljs.core.PersistentArrayMap.EMPTY);
 }
@@ -531,14 +531,14 @@ return cljs.core.boolean$(((typeof x === 'string')?cljs.core.re_matches(garden.c
 garden.color.hex__GT_rgb = (function garden$color$hex__GT_rgb(s){
 var temp__5735__auto__ = cljs.core.re_matches(garden.color.hex_re,s);
 if(cljs.core.truth_(temp__5735__auto__)){
-var vec__33509 = temp__5735__auto__;
-var _ = cljs.core.nth.cljs$core$IFn$_invoke$arity$3(vec__33509,(0),null);
-var hex = cljs.core.nth.cljs$core$IFn$_invoke$arity$3(vec__33509,(1),null);
-var hex__$1 = ((cljs.core._EQ_.cljs$core$IFn$_invoke$arity$2((3),cljs.core.count(hex)))?cljs.core.apply.cljs$core$IFn$_invoke$arity$2(cljs.core.str,cljs.core.mapcat.cljs$core$IFn$_invoke$arity$variadic((function (p1__33503_SHARP_){
-return (new cljs.core.List(null,p1__33503_SHARP_,(new cljs.core.List(null,p1__33503_SHARP_,null,(1),null)),(2),null));
+var vec__39928 = temp__5735__auto__;
+var _ = cljs.core.nth.cljs$core$IFn$_invoke$arity$3(vec__39928,(0),null);
+var hex = cljs.core.nth.cljs$core$IFn$_invoke$arity$3(vec__39928,(1),null);
+var hex__$1 = ((cljs.core._EQ_.cljs$core$IFn$_invoke$arity$2((3),cljs.core.count(hex)))?cljs.core.apply.cljs$core$IFn$_invoke$arity$2(cljs.core.str,cljs.core.mapcat.cljs$core$IFn$_invoke$arity$variadic((function (p1__39926_SHARP_){
+return (new cljs.core.List(null,p1__39926_SHARP_,(new cljs.core.List(null,p1__39926_SHARP_,null,(1),null)),(2),null));
 }),cljs.core.prim_seq.cljs$core$IFn$_invoke$arity$2([hex], 0))):hex);
-return garden.color.rgb.cljs$core$IFn$_invoke$arity$1(cljs.core.map.cljs$core$IFn$_invoke$arity$2((function (p1__33504_SHARP_){
-return garden.util.string__GT_int.cljs$core$IFn$_invoke$arity$variadic(p1__33504_SHARP_,cljs.core.prim_seq.cljs$core$IFn$_invoke$arity$2([(16)], 0));
+return garden.color.rgb.cljs$core$IFn$_invoke$arity$1(cljs.core.map.cljs$core$IFn$_invoke$arity$2((function (p1__39927_SHARP_){
+return garden.util.string__GT_int.cljs$core$IFn$_invoke$arity$variadic(p1__39927_SHARP_,cljs.core.prim_seq.cljs$core$IFn$_invoke$arity$2([(16)], 0));
 }),cljs.core.re_seq(/[\da-fA-F]{2}/,hex__$1)));
 } else {
 return null;
@@ -547,12 +547,12 @@ return null;
 /**
  * Convert an RGB color map to a hexadecimal color.
  */
-garden.color.rgb__GT_hex = (function garden$color$rgb__GT_hex(p__33518){
-var map__33521 = p__33518;
-var map__33521__$1 = (((((!((map__33521 == null))))?(((((map__33521.cljs$lang$protocol_mask$partition0$ & (64))) || ((cljs.core.PROTOCOL_SENTINEL === map__33521.cljs$core$ISeq$))))?true:false):false))?cljs.core.apply.cljs$core$IFn$_invoke$arity$2(cljs.core.hash_map,map__33521):map__33521);
-var r = cljs.core.get.cljs$core$IFn$_invoke$arity$2(map__33521__$1,new cljs.core.Keyword(null,"red","red",-969428204));
-var g = cljs.core.get.cljs$core$IFn$_invoke$arity$2(map__33521__$1,new cljs.core.Keyword(null,"green","green",-945526839));
-var b = cljs.core.get.cljs$core$IFn$_invoke$arity$2(map__33521__$1,new cljs.core.Keyword(null,"blue","blue",-622100620));
+garden.color.rgb__GT_hex = (function garden$color$rgb__GT_hex(p__39935){
+var map__39938 = p__39935;
+var map__39938__$1 = (((((!((map__39938 == null))))?(((((map__39938.cljs$lang$protocol_mask$partition0$ & (64))) || ((cljs.core.PROTOCOL_SENTINEL === map__39938.cljs$core$ISeq$))))?true:false):false))?cljs.core.apply.cljs$core$IFn$_invoke$arity$2(cljs.core.hash_map,map__39938):map__39938);
+var r = cljs.core.get.cljs$core$IFn$_invoke$arity$2(map__39938__$1,new cljs.core.Keyword(null,"red","red",-969428204));
+var g = cljs.core.get.cljs$core$IFn$_invoke$arity$2(map__39938__$1,new cljs.core.Keyword(null,"green","green",-945526839));
+var b = cljs.core.get.cljs$core$IFn$_invoke$arity$2(map__39938__$1,new cljs.core.Keyword(null,"blue","blue",-622100620));
 var hex_part = (function garden$color$rgb__GT_hex_$_hex_part(v){
 return clojure.string.replace(garden.util.format.cljs$core$IFn$_invoke$arity$variadic("%2s",cljs.core.prim_seq.cljs$core$IFn$_invoke$arity$2([garden.util.int__GT_string.cljs$core$IFn$_invoke$arity$variadic(v,cljs.core.prim_seq.cljs$core$IFn$_invoke$arity$2([(16)], 0))], 0))," ","0");
 });
@@ -568,22 +568,22 @@ return x;
 /**
  * Convert an RGB color map to an HSL color map.
  */
-garden.color.rgb__GT_hsl = (function garden$color$rgb__GT_hsl(p__33531){
-var map__33532 = p__33531;
-var map__33532__$1 = (((((!((map__33532 == null))))?(((((map__33532.cljs$lang$protocol_mask$partition0$ & (64))) || ((cljs.core.PROTOCOL_SENTINEL === map__33532.cljs$core$ISeq$))))?true:false):false))?cljs.core.apply.cljs$core$IFn$_invoke$arity$2(cljs.core.hash_map,map__33532):map__33532);
-var color = map__33532__$1;
-var red = cljs.core.get.cljs$core$IFn$_invoke$arity$2(map__33532__$1,new cljs.core.Keyword(null,"red","red",-969428204));
-var green = cljs.core.get.cljs$core$IFn$_invoke$arity$2(map__33532__$1,new cljs.core.Keyword(null,"green","green",-945526839));
-var blue = cljs.core.get.cljs$core$IFn$_invoke$arity$2(map__33532__$1,new cljs.core.Keyword(null,"blue","blue",-622100620));
+garden.color.rgb__GT_hsl = (function garden$color$rgb__GT_hsl(p__39961){
+var map__39962 = p__39961;
+var map__39962__$1 = (((((!((map__39962 == null))))?(((((map__39962.cljs$lang$protocol_mask$partition0$ & (64))) || ((cljs.core.PROTOCOL_SENTINEL === map__39962.cljs$core$ISeq$))))?true:false):false))?cljs.core.apply.cljs$core$IFn$_invoke$arity$2(cljs.core.hash_map,map__39962):map__39962);
+var color = map__39962__$1;
+var red = cljs.core.get.cljs$core$IFn$_invoke$arity$2(map__39962__$1,new cljs.core.Keyword(null,"red","red",-969428204));
+var green = cljs.core.get.cljs$core$IFn$_invoke$arity$2(map__39962__$1,new cljs.core.Keyword(null,"green","green",-945526839));
+var blue = cljs.core.get.cljs$core$IFn$_invoke$arity$2(map__39962__$1,new cljs.core.Keyword(null,"blue","blue",-622100620));
 if(garden.color.hsl_QMARK_(color)){
 return color;
 } else {
-var vec__33534 = cljs.core.map.cljs$core$IFn$_invoke$arity$2((function (p1__33528_SHARP_){
-return (p1__33528_SHARP_ / (255));
+var vec__39966 = cljs.core.map.cljs$core$IFn$_invoke$arity$2((function (p1__39953_SHARP_){
+return (p1__39953_SHARP_ / (255));
 }),new cljs.core.PersistentVector(null, 3, 5, cljs.core.PersistentVector.EMPTY_NODE, [red,green,blue], null));
-var r = cljs.core.nth.cljs$core$IFn$_invoke$arity$3(vec__33534,(0),null);
-var g = cljs.core.nth.cljs$core$IFn$_invoke$arity$3(vec__33534,(1),null);
-var b = cljs.core.nth.cljs$core$IFn$_invoke$arity$3(vec__33534,(2),null);
+var r = cljs.core.nth.cljs$core$IFn$_invoke$arity$3(vec__39966,(0),null);
+var g = cljs.core.nth.cljs$core$IFn$_invoke$arity$3(vec__39966,(1),null);
+var b = cljs.core.nth.cljs$core$IFn$_invoke$arity$3(vec__39966,(2),null);
 var mx = (function (){var x__4273__auto__ = (function (){var x__4273__auto__ = r;
 var y__4274__auto__ = g;
 return ((x__4273__auto__ > y__4274__auto__) ? x__4273__auto__ : y__4274__auto__);
@@ -599,21 +599,21 @@ var y__4277__auto__ = b;
 return ((x__4276__auto__ < y__4277__auto__) ? x__4276__auto__ : y__4277__auto__);
 })();
 var d = (mx - mn);
-var h = (function (){var pred__33539 = cljs.core._EQ_;
-var expr__33540 = mx;
-if(cljs.core.truth_((pred__33539.cljs$core$IFn$_invoke$arity$2 ? pred__33539.cljs$core$IFn$_invoke$arity$2(mn,expr__33540) : pred__33539.call(null,mn,expr__33540)))){
+var h = (function (){var pred__39972 = cljs.core._EQ_;
+var expr__39973 = mx;
+if(cljs.core.truth_((pred__39972.cljs$core$IFn$_invoke$arity$2 ? pred__39972.cljs$core$IFn$_invoke$arity$2(mn,expr__39973) : pred__39972.call(null,mn,expr__39973)))){
 return (0);
 } else {
-if(cljs.core.truth_((pred__33539.cljs$core$IFn$_invoke$arity$2 ? pred__33539.cljs$core$IFn$_invoke$arity$2(r,expr__33540) : pred__33539.call(null,r,expr__33540)))){
+if(cljs.core.truth_((pred__39972.cljs$core$IFn$_invoke$arity$2 ? pred__39972.cljs$core$IFn$_invoke$arity$2(r,expr__39973) : pred__39972.call(null,r,expr__39973)))){
 return ((60) * ((g - b) / d));
 } else {
-if(cljs.core.truth_((pred__33539.cljs$core$IFn$_invoke$arity$2 ? pred__33539.cljs$core$IFn$_invoke$arity$2(g,expr__33540) : pred__33539.call(null,g,expr__33540)))){
+if(cljs.core.truth_((pred__39972.cljs$core$IFn$_invoke$arity$2 ? pred__39972.cljs$core$IFn$_invoke$arity$2(g,expr__39973) : pred__39972.call(null,g,expr__39973)))){
 return (((60) * ((b - r) / d)) + (120));
 } else {
-if(cljs.core.truth_((pred__33539.cljs$core$IFn$_invoke$arity$2 ? pred__33539.cljs$core$IFn$_invoke$arity$2(b,expr__33540) : pred__33539.call(null,b,expr__33540)))){
+if(cljs.core.truth_((pred__39972.cljs$core$IFn$_invoke$arity$2 ? pred__39972.cljs$core$IFn$_invoke$arity$2(b,expr__39973) : pred__39972.call(null,b,expr__39973)))){
 return (((60) * ((r - g) / d)) + (240));
 } else {
-throw (new Error(["No matching clause: ",cljs.core.str.cljs$core$IFn$_invoke$arity$1(expr__33540)].join('')));
+throw (new Error(["No matching clause: ",cljs.core.str.cljs$core$IFn$_invoke$arity$1(expr__39973)].join('')));
 }
 }
 }
@@ -628,13 +628,13 @@ return garden.color.hsl.cljs$core$IFn$_invoke$arity$3(cljs.core.mod(h,(360)),((1
 /**
  * Convert an HSL color map to an RGB color map.
  */
-garden.color.hsl__GT_rgb = (function garden$color$hsl__GT_rgb(p__33547){
-var map__33548 = p__33547;
-var map__33548__$1 = (((((!((map__33548 == null))))?(((((map__33548.cljs$lang$protocol_mask$partition0$ & (64))) || ((cljs.core.PROTOCOL_SENTINEL === map__33548.cljs$core$ISeq$))))?true:false):false))?cljs.core.apply.cljs$core$IFn$_invoke$arity$2(cljs.core.hash_map,map__33548):map__33548);
-var color = map__33548__$1;
-var hue = cljs.core.get.cljs$core$IFn$_invoke$arity$2(map__33548__$1,new cljs.core.Keyword(null,"hue","hue",-508078848));
-var saturation = cljs.core.get.cljs$core$IFn$_invoke$arity$2(map__33548__$1,new cljs.core.Keyword(null,"saturation","saturation",-14247929));
-var lightness = cljs.core.get.cljs$core$IFn$_invoke$arity$2(map__33548__$1,new cljs.core.Keyword(null,"lightness","lightness",-2040901930));
+garden.color.hsl__GT_rgb = (function garden$color$hsl__GT_rgb(p__39980){
+var map__39981 = p__39980;
+var map__39981__$1 = (((((!((map__39981 == null))))?(((((map__39981.cljs$lang$protocol_mask$partition0$ & (64))) || ((cljs.core.PROTOCOL_SENTINEL === map__39981.cljs$core$ISeq$))))?true:false):false))?cljs.core.apply.cljs$core$IFn$_invoke$arity$2(cljs.core.hash_map,map__39981):map__39981);
+var color = map__39981__$1;
+var hue = cljs.core.get.cljs$core$IFn$_invoke$arity$2(map__39981__$1,new cljs.core.Keyword(null,"hue","hue",-508078848));
+var saturation = cljs.core.get.cljs$core$IFn$_invoke$arity$2(map__39981__$1,new cljs.core.Keyword(null,"saturation","saturation",-14247929));
+var lightness = cljs.core.get.cljs$core$IFn$_invoke$arity$2(map__39981__$1,new cljs.core.Keyword(null,"lightness","lightness",-2040901930));
 if(garden.color.rgb_QMARK_(color)){
 return color;
 } else {
@@ -643,20 +643,20 @@ var s = (saturation / 100.0);
 var l = (lightness / 100.0);
 var m2 = (((l <= 0.5))?(l * (s + (1))):((l + s) - (l * s)));
 var m1 = (((2) * l) - m2);
-var vec__33550 = cljs.core.map.cljs$core$IFn$_invoke$arity$2((function (p1__33546_SHARP_){
-return ((0.5 + (p1__33546_SHARP_ * (255))) | (0));
-}),new cljs.core.PersistentVector(null, 3, 5, cljs.core.PersistentVector.EMPTY_NODE, [(function (){var G__33553 = m1;
-var G__33554 = m2;
-var G__33555 = (h + (1.0 / (3)));
-return (garden.color.hue__GT_rgb.cljs$core$IFn$_invoke$arity$3 ? garden.color.hue__GT_rgb.cljs$core$IFn$_invoke$arity$3(G__33553,G__33554,G__33555) : garden.color.hue__GT_rgb.call(null,G__33553,G__33554,G__33555));
-})(),(garden.color.hue__GT_rgb.cljs$core$IFn$_invoke$arity$3 ? garden.color.hue__GT_rgb.cljs$core$IFn$_invoke$arity$3(m1,m2,h) : garden.color.hue__GT_rgb.call(null,m1,m2,h)),(function (){var G__33556 = m1;
-var G__33557 = m2;
-var G__33558 = (h - (1.0 / (3)));
-return (garden.color.hue__GT_rgb.cljs$core$IFn$_invoke$arity$3 ? garden.color.hue__GT_rgb.cljs$core$IFn$_invoke$arity$3(G__33556,G__33557,G__33558) : garden.color.hue__GT_rgb.call(null,G__33556,G__33557,G__33558));
+var vec__39983 = cljs.core.map.cljs$core$IFn$_invoke$arity$2((function (p1__39979_SHARP_){
+return ((0.5 + (p1__39979_SHARP_ * (255))) | (0));
+}),new cljs.core.PersistentVector(null, 3, 5, cljs.core.PersistentVector.EMPTY_NODE, [(function (){var G__39986 = m1;
+var G__39987 = m2;
+var G__39988 = (h + (1.0 / (3)));
+return (garden.color.hue__GT_rgb.cljs$core$IFn$_invoke$arity$3 ? garden.color.hue__GT_rgb.cljs$core$IFn$_invoke$arity$3(G__39986,G__39987,G__39988) : garden.color.hue__GT_rgb.call(null,G__39986,G__39987,G__39988));
+})(),(garden.color.hue__GT_rgb.cljs$core$IFn$_invoke$arity$3 ? garden.color.hue__GT_rgb.cljs$core$IFn$_invoke$arity$3(m1,m2,h) : garden.color.hue__GT_rgb.call(null,m1,m2,h)),(function (){var G__39989 = m1;
+var G__39990 = m2;
+var G__39991 = (h - (1.0 / (3)));
+return (garden.color.hue__GT_rgb.cljs$core$IFn$_invoke$arity$3 ? garden.color.hue__GT_rgb.cljs$core$IFn$_invoke$arity$3(G__39989,G__39990,G__39991) : garden.color.hue__GT_rgb.call(null,G__39989,G__39990,G__39991));
 })()], null));
-var r = cljs.core.nth.cljs$core$IFn$_invoke$arity$3(vec__33550,(0),null);
-var g = cljs.core.nth.cljs$core$IFn$_invoke$arity$3(vec__33550,(1),null);
-var b = cljs.core.nth.cljs$core$IFn$_invoke$arity$3(vec__33550,(2),null);
+var r = cljs.core.nth.cljs$core$IFn$_invoke$arity$3(vec__39983,(0),null);
+var g = cljs.core.nth.cljs$core$IFn$_invoke$arity$3(vec__39983,(1),null);
+var b = cljs.core.nth.cljs$core$IFn$_invoke$arity$3(vec__39983,(2),null);
 return garden.color.rgb.cljs$core$IFn$_invoke$arity$1(new cljs.core.PersistentVector(null, 3, 5, cljs.core.PersistentVector.EMPTY_NODE, [r,g,b], null));
 }
 });
@@ -783,31 +783,31 @@ var garden$color$make_color_operation_$_color_op__2 = (function (a,b){
 var o = cljs.core.comp.cljs$core$IFn$_invoke$arity$2(garden.color.rgb_clip,op);
 var a__$1 = garden.color.restrict_rgb(garden.color.as_rgb(a));
 var b__$1 = garden.color.restrict_rgb(garden.color.as_rgb(b));
-var G__33576 = cljs.core.merge_with.cljs$core$IFn$_invoke$arity$variadic(o,cljs.core.prim_seq.cljs$core$IFn$_invoke$arity$2([a__$1,b__$1], 0));
-return (garden.color.as_color.cljs$core$IFn$_invoke$arity$1 ? garden.color.as_color.cljs$core$IFn$_invoke$arity$1(G__33576) : garden.color.as_color.call(null,G__33576));
+var G__40000 = cljs.core.merge_with.cljs$core$IFn$_invoke$arity$variadic(o,cljs.core.prim_seq.cljs$core$IFn$_invoke$arity$2([a__$1,b__$1], 0));
+return (garden.color.as_color.cljs$core$IFn$_invoke$arity$1 ? garden.color.as_color.cljs$core$IFn$_invoke$arity$1(G__40000) : garden.color.as_color.call(null,G__40000));
 });
 var garden$color$make_color_operation_$_color_op__3 = (function() { 
-var G__33773__delegate = function (a,b,more){
+var G__40211__delegate = function (a,b,more){
 return cljs.core.reduce.cljs$core$IFn$_invoke$arity$3(garden$color$make_color_operation_$_color_op,garden$color$make_color_operation_$_color_op.cljs$core$IFn$_invoke$arity$2(a,b),more);
 };
-var G__33773 = function (a,b,var_args){
+var G__40211 = function (a,b,var_args){
 var more = null;
 if (arguments.length > 2) {
-var G__33774__i = 0, G__33774__a = new Array(arguments.length -  2);
-while (G__33774__i < G__33774__a.length) {G__33774__a[G__33774__i] = arguments[G__33774__i + 2]; ++G__33774__i;}
-  more = new cljs.core.IndexedSeq(G__33774__a,0,null);
+var G__40213__i = 0, G__40213__a = new Array(arguments.length -  2);
+while (G__40213__i < G__40213__a.length) {G__40213__a[G__40213__i] = arguments[G__40213__i + 2]; ++G__40213__i;}
+  more = new cljs.core.IndexedSeq(G__40213__a,0,null);
 } 
-return G__33773__delegate.call(this,a,b,more);};
-G__33773.cljs$lang$maxFixedArity = 2;
-G__33773.cljs$lang$applyTo = (function (arglist__33775){
-var a = cljs.core.first(arglist__33775);
-arglist__33775 = cljs.core.next(arglist__33775);
-var b = cljs.core.first(arglist__33775);
-var more = cljs.core.rest(arglist__33775);
-return G__33773__delegate(a,b,more);
+return G__40211__delegate.call(this,a,b,more);};
+G__40211.cljs$lang$maxFixedArity = 2;
+G__40211.cljs$lang$applyTo = (function (arglist__40217){
+var a = cljs.core.first(arglist__40217);
+arglist__40217 = cljs.core.next(arglist__40217);
+var b = cljs.core.first(arglist__40217);
+var more = cljs.core.rest(arglist__40217);
+return G__40211__delegate(a,b,more);
 });
-G__33773.cljs$core$IFn$_invoke$arity$variadic = G__33773__delegate;
-return G__33773;
+G__40211.cljs$core$IFn$_invoke$arity$variadic = G__40211__delegate;
+return G__40211;
 })()
 ;
 garden$color$make_color_operation_$_color_op = function(a,b,var_args){
@@ -818,13 +818,13 @@ return garden$color$make_color_operation_$_color_op__1.call(this,a);
 case 2:
 return garden$color$make_color_operation_$_color_op__2.call(this,a,b);
 default:
-var G__33776 = null;
+var G__40218 = null;
 if (arguments.length > 2) {
-var G__33777__i = 0, G__33777__a = new Array(arguments.length -  2);
-while (G__33777__i < G__33777__a.length) {G__33777__a[G__33777__i] = arguments[G__33777__i + 2]; ++G__33777__i;}
-G__33776 = new cljs.core.IndexedSeq(G__33777__a,0,null);
+var G__40219__i = 0, G__40219__a = new Array(arguments.length -  2);
+while (G__40219__i < G__40219__a.length) {G__40219__a[G__40219__i] = arguments[G__40219__i + 2]; ++G__40219__i;}
+G__40218 = new cljs.core.IndexedSeq(G__40219__a,0,null);
 }
-return garden$color$make_color_operation_$_color_op__3.cljs$core$IFn$_invoke$arity$variadic(a,b, G__33776);
+return garden$color$make_color_operation_$_color_op__3.cljs$core$IFn$_invoke$arity$variadic(a,b, G__40218);
 }
 throw(new Error('Invalid arity: ' + arguments.length));
 };
@@ -860,8 +860,8 @@ return cljs.core.update.cljs$core$IFn$_invoke$arity$4(garden.color.as_hsla(color
  * Rotates the hue value of a given color by amount.
  */
 garden.color.rotate_hue = (function garden$color$rotate_hue(color,amount){
-return garden.color.update_hsla_field(color,new cljs.core.Keyword(null,"hue","hue",-508078848),cljs.core.comp.cljs$core$IFn$_invoke$arity$2((function (p1__33583_SHARP_){
-return cljs.core.mod(p1__33583_SHARP_,(360));
+return garden.color.update_hsla_field(color,new cljs.core.Keyword(null,"hue","hue",-508078848),cljs.core.comp.cljs$core$IFn$_invoke$arity$2((function (p1__40003_SHARP_){
+return cljs.core.mod(p1__40003_SHARP_,(360));
 }),cljs.core._PLUS_),amount);
 });
 /**
@@ -904,29 +904,29 @@ return garden.color.update_hsla_field(color,new cljs.core.Keyword(null,"alpha","
  * Return the inversion of a color.
  */
 garden.color.invert = (function garden$color$invert(color){
-var G__33603 = cljs.core.merge_with.cljs$core$IFn$_invoke$arity$variadic(cljs.core._,cljs.core.prim_seq.cljs$core$IFn$_invoke$arity$2([new cljs.core.PersistentArrayMap(null, 3, [new cljs.core.Keyword(null,"red","red",-969428204),(255),new cljs.core.Keyword(null,"green","green",-945526839),(255),new cljs.core.Keyword(null,"blue","blue",-622100620),(255)], null),garden.color.as_rgb(color)], 0));
-return (garden.color.as_color.cljs$core$IFn$_invoke$arity$1 ? garden.color.as_color.cljs$core$IFn$_invoke$arity$1(G__33603) : garden.color.as_color.call(null,G__33603));
+var G__40010 = cljs.core.merge_with.cljs$core$IFn$_invoke$arity$variadic(cljs.core._,cljs.core.prim_seq.cljs$core$IFn$_invoke$arity$2([new cljs.core.PersistentArrayMap(null, 3, [new cljs.core.Keyword(null,"red","red",-969428204),(255),new cljs.core.Keyword(null,"green","green",-945526839),(255),new cljs.core.Keyword(null,"blue","blue",-622100620),(255)], null),garden.color.as_rgb(color)], 0));
+return (garden.color.as_color.cljs$core$IFn$_invoke$arity$1 ? garden.color.as_color.cljs$core$IFn$_invoke$arity$1(G__40010) : garden.color.as_color.call(null,G__40010));
 });
 /**
  * Mix two or more colors by averaging their RGB channels.
  */
 garden.color.mix = (function garden$color$mix(var_args){
-var G__33611 = arguments.length;
-switch (G__33611) {
+var G__40015 = arguments.length;
+switch (G__40015) {
 case 2:
 return garden.color.mix.cljs$core$IFn$_invoke$arity$2((arguments[(0)]),(arguments[(1)]));
 
 break;
 default:
 var args_arr__4810__auto__ = [];
-var len__4789__auto___33779 = arguments.length;
-var i__4790__auto___33780 = (0);
+var len__4789__auto___40222 = arguments.length;
+var i__4790__auto___40223 = (0);
 while(true){
-if((i__4790__auto___33780 < len__4789__auto___33779)){
-args_arr__4810__auto__.push((arguments[i__4790__auto___33780]));
+if((i__4790__auto___40223 < len__4789__auto___40222)){
+args_arr__4810__auto__.push((arguments[i__4790__auto___40223]));
 
-var G__33781 = (i__4790__auto___33780 + (1));
-i__4790__auto___33780 = G__33781;
+var G__40224 = (i__4790__auto___40223 + (1));
+i__4790__auto___40223 = G__40224;
 continue;
 } else {
 }
@@ -942,8 +942,8 @@ return garden.color.mix.cljs$core$IFn$_invoke$arity$variadic((arguments[(0)]),(a
 (garden.color.mix.cljs$core$IFn$_invoke$arity$2 = (function (color_1,color_2){
 var c1 = garden.color.restrict_rgb(garden.color.as_rgb(color_1));
 var c2 = garden.color.restrict_rgb(garden.color.as_rgb(color_2));
-var G__33620 = cljs.core.merge_with.cljs$core$IFn$_invoke$arity$variadic(garden.util.average,cljs.core.prim_seq.cljs$core$IFn$_invoke$arity$2([c1,c2], 0));
-return (garden.color.as_color.cljs$core$IFn$_invoke$arity$1 ? garden.color.as_color.cljs$core$IFn$_invoke$arity$1(G__33620) : garden.color.as_color.call(null,G__33620));
+var G__40016 = cljs.core.merge_with.cljs$core$IFn$_invoke$arity$variadic(garden.util.average,cljs.core.prim_seq.cljs$core$IFn$_invoke$arity$2([c1,c2], 0));
+return (garden.color.as_color.cljs$core$IFn$_invoke$arity$1 ? garden.color.as_color.cljs$core$IFn$_invoke$arity$1(G__40016) : garden.color.as_color.call(null,G__40016));
 }));
 
 (garden.color.mix.cljs$core$IFn$_invoke$arity$variadic = (function (color_1,color_2,more){
@@ -951,13 +951,13 @@ return cljs.core.reduce.cljs$core$IFn$_invoke$arity$3(garden.color.mix,garden.co
 }));
 
 /** @this {Function} */
-(garden.color.mix.cljs$lang$applyTo = (function (seq33606){
-var G__33607 = cljs.core.first(seq33606);
-var seq33606__$1 = cljs.core.next(seq33606);
-var G__33608 = cljs.core.first(seq33606__$1);
-var seq33606__$2 = cljs.core.next(seq33606__$1);
+(garden.color.mix.cljs$lang$applyTo = (function (seq40012){
+var G__40013 = cljs.core.first(seq40012);
+var seq40012__$1 = cljs.core.next(seq40012);
+var G__40014 = cljs.core.first(seq40012__$1);
+var seq40012__$2 = cljs.core.next(seq40012__$1);
 var self__4776__auto__ = this;
-return self__4776__auto__.cljs$core$IFn$_invoke$arity$variadic(G__33607,G__33608,seq33606__$2);
+return self__4776__auto__.cljs$core$IFn$_invoke$arity$variadic(G__40013,G__40014,seq40012__$2);
 }));
 
 (garden.color.mix.cljs$lang$maxFixedArity = (2));
@@ -970,14 +970,14 @@ return garden.color.rotate_hue(color,(180));
 });
 garden.color.hue_rotations = (function garden$color$hue_rotations(var_args){
 var args__4795__auto__ = [];
-var len__4789__auto___33782 = arguments.length;
-var i__4790__auto___33783 = (0);
+var len__4789__auto___40230 = arguments.length;
+var i__4790__auto___40231 = (0);
 while(true){
-if((i__4790__auto___33783 < len__4789__auto___33782)){
-args__4795__auto__.push((arguments[i__4790__auto___33783]));
+if((i__4790__auto___40231 < len__4789__auto___40230)){
+args__4795__auto__.push((arguments[i__4790__auto___40231]));
 
-var G__33784 = (i__4790__auto___33783 + (1));
-i__4790__auto___33783 = G__33784;
+var G__40233 = (i__4790__auto___40231 + (1));
+i__4790__auto___40231 = G__40233;
 continue;
 } else {
 }
@@ -995,11 +995,11 @@ return cljs.core.map.cljs$core$IFn$_invoke$arity$2(cljs.core.partial.cljs$core$I
 (garden.color.hue_rotations.cljs$lang$maxFixedArity = (1));
 
 /** @this {Function} */
-(garden.color.hue_rotations.cljs$lang$applyTo = (function (seq33634){
-var G__33635 = cljs.core.first(seq33634);
-var seq33634__$1 = cljs.core.next(seq33634);
+(garden.color.hue_rotations.cljs$lang$applyTo = (function (seq40017){
+var G__40018 = cljs.core.first(seq40017);
+var seq40017__$1 = cljs.core.next(seq40017);
 var self__4776__auto__ = this;
-return self__4776__auto__.cljs$core$IFn$_invoke$arity$variadic(G__33635,seq33634__$1);
+return self__4776__auto__.cljs$core$IFn$_invoke$arity$variadic(G__40018,seq40017__$1);
 }));
 
 /**
@@ -1008,8 +1008,8 @@ return self__4776__auto__.cljs$core$IFn$_invoke$arity$variadic(G__33635,seq33634
  *   returned values will be in a counter-clockwise direction.
  */
 garden.color.analogous = (function garden$color$analogous(var_args){
-var G__33637 = arguments.length;
-switch (G__33637) {
+var G__40021 = arguments.length;
+switch (G__40021) {
 case 1:
 return garden.color.analogous.cljs$core$IFn$_invoke$arity$1((arguments[(0)]));
 
@@ -1047,8 +1047,8 @@ return garden.color.hue_rotations.cljs$core$IFn$_invoke$arity$variadic(color,clj
  *   either side of it's complement.
  */
 garden.color.split_complement = (function garden$color$split_complement(var_args){
-var G__33639 = arguments.length;
-switch (G__33639) {
+var G__40031 = arguments.length;
+switch (G__40031) {
 case 1:
 return garden.color.split_complement.cljs$core$IFn$_invoke$arity$1((arguments[(0)]));
 
@@ -1088,8 +1088,8 @@ return x;
  *   pair (this defaults to 90 when only color is passed).
  */
 garden.color.tetrad = (function garden$color$tetrad(var_args){
-var G__33650 = arguments.length;
-switch (G__33650) {
+var G__40034 = arguments.length;
+switch (G__40034) {
 case 1:
 return garden.color.tetrad.cljs$core$IFn$_invoke$arity$1((arguments[(0)]));
 
@@ -1122,8 +1122,8 @@ return new cljs.core.PersistentVector(null, 4, 5, cljs.core.PersistentVector.EMP
  *   the returned list.
  */
 garden.color.shades = (function garden$color$shades(var_args){
-var G__33663 = arguments.length;
-switch (G__33663) {
+var G__40039 = arguments.length;
+switch (G__40039) {
 case 1:
 return garden.color.shades.cljs$core$IFn$_invoke$arity$1((arguments[(0)]));
 
@@ -1144,25 +1144,25 @@ return garden.color.shades.cljs$core$IFn$_invoke$arity$2(color,(10));
 
 (garden.color.shades.cljs$core$IFn$_invoke$arity$2 = (function (color,step){
 var c = garden.color.as_hsl(color);
-var iter__4582__auto__ = (function garden$color$iter__33664(s__33665){
+var iter__4582__auto__ = (function garden$color$iter__40041(s__40042){
 return (new cljs.core.LazySeq(null,(function (){
-var s__33665__$1 = s__33665;
+var s__40042__$1 = s__40042;
 while(true){
-var temp__5735__auto__ = cljs.core.seq(s__33665__$1);
+var temp__5735__auto__ = cljs.core.seq(s__40042__$1);
 if(temp__5735__auto__){
-var s__33665__$2 = temp__5735__auto__;
-if(cljs.core.chunked_seq_QMARK_(s__33665__$2)){
-var c__4580__auto__ = cljs.core.chunk_first(s__33665__$2);
+var s__40042__$2 = temp__5735__auto__;
+if(cljs.core.chunked_seq_QMARK_(s__40042__$2)){
+var c__4580__auto__ = cljs.core.chunk_first(s__40042__$2);
 var size__4581__auto__ = cljs.core.count(c__4580__auto__);
-var b__33667 = cljs.core.chunk_buffer(size__4581__auto__);
-if((function (){var i__33666 = (0);
+var b__40044 = cljs.core.chunk_buffer(size__4581__auto__);
+if((function (){var i__40043 = (0);
 while(true){
-if((i__33666 < size__4581__auto__)){
-var i = cljs.core._nth.cljs$core$IFn$_invoke$arity$2(c__4580__auto__,i__33666);
-cljs.core.chunk_append(b__33667,cljs.core.assoc.cljs$core$IFn$_invoke$arity$3(c,new cljs.core.Keyword(null,"lightness","lightness",-2040901930),(i * step)));
+if((i__40043 < size__4581__auto__)){
+var i = cljs.core._nth.cljs$core$IFn$_invoke$arity$2(c__4580__auto__,i__40043);
+cljs.core.chunk_append(b__40044,cljs.core.assoc.cljs$core$IFn$_invoke$arity$3(c,new cljs.core.Keyword(null,"lightness","lightness",-2040901930),(i * step)));
 
-var G__33789 = (i__33666 + (1));
-i__33666 = G__33789;
+var G__40238 = (i__40043 + (1));
+i__40043 = G__40238;
 continue;
 } else {
 return true;
@@ -1170,13 +1170,13 @@ return true;
 break;
 }
 })()){
-return cljs.core.chunk_cons(cljs.core.chunk(b__33667),garden$color$iter__33664(cljs.core.chunk_rest(s__33665__$2)));
+return cljs.core.chunk_cons(cljs.core.chunk(b__40044),garden$color$iter__40041(cljs.core.chunk_rest(s__40042__$2)));
 } else {
-return cljs.core.chunk_cons(cljs.core.chunk(b__33667),null);
+return cljs.core.chunk_cons(cljs.core.chunk(b__40044),null);
 }
 } else {
-var i = cljs.core.first(s__33665__$2);
-return cljs.core.cons(cljs.core.assoc.cljs$core$IFn$_invoke$arity$3(c,new cljs.core.Keyword(null,"lightness","lightness",-2040901930),(i * step)),garden$color$iter__33664(cljs.core.rest(s__33665__$2)));
+var i = cljs.core.first(s__40042__$2);
+return cljs.core.cons(cljs.core.assoc.cljs$core$IFn$_invoke$arity$3(c,new cljs.core.Keyword(null,"lightness","lightness",-2040901930),(i * step)),garden$color$iter__40041(cljs.core.rest(s__40042__$2)));
 }
 } else {
 return null;
@@ -1208,8 +1208,8 @@ return (garden.color.color_name__GT_hex.cljs$core$IFn$_invoke$arity$1 ? garden.c
  * Given a CSS color name n return an instance of CSSColor.
  */
 garden.color.from_name = (function garden$color$from_name(n){
-var temp__5733__auto__ = (function (){var G__33689 = cljs.core.keyword.cljs$core$IFn$_invoke$arity$1(n);
-return (garden.color.color_name__GT_color.cljs$core$IFn$_invoke$arity$1 ? garden.color.color_name__GT_color.cljs$core$IFn$_invoke$arity$1(G__33689) : garden.color.color_name__GT_color.call(null,G__33689));
+var temp__5733__auto__ = (function (){var G__40063 = cljs.core.keyword.cljs$core$IFn$_invoke$arity$1(n);
+return (garden.color.color_name__GT_color.cljs$core$IFn$_invoke$arity$1 ? garden.color.color_name__GT_color.cljs$core$IFn$_invoke$arity$1(G__40063) : garden.color.color_name__GT_color.call(null,G__40063));
 })();
 if(cljs.core.truth_(temp__5733__auto__)){
 var h = temp__5733__auto__;
@@ -1219,8 +1219,8 @@ throw garden.color.ex_info_color_name(n);
 }
 });
 garden.color.scale_color_value = (function garden$color$scale_color_value(var_args){
-var G__33696 = arguments.length;
-switch (G__33696) {
+var G__40070 = arguments.length;
+switch (G__40070) {
 case 2:
 return garden.color.scale_color_value.cljs$core$IFn$_invoke$arity$2((arguments[(0)]),(arguments[(1)]));
 
@@ -1264,9 +1264,9 @@ return garden.color.update_hsla_field(color,new cljs.core.Keyword(null,"saturati
  *   Supply positive values to scale upwards and negative values to scale downwards.
  */
 garden.color.scale_alpha = (function garden$color$scale_alpha(color,amount){
-return garden.color.update_hsla_field(color,new cljs.core.Keyword(null,"alpha","alpha",-1574982441),(function (p1__33706_SHARP_,p2__33707_SHARP_){
-var G__33708 = (p1__33706_SHARP_ * ((1) + (p2__33707_SHARP_ / (100))));
-return (garden.color.zero_to_one_clip.cljs$core$IFn$_invoke$arity$1 ? garden.color.zero_to_one_clip.cljs$core$IFn$_invoke$arity$1(G__33708) : garden.color.zero_to_one_clip.call(null,G__33708));
+return garden.color.update_hsla_field(color,new cljs.core.Keyword(null,"alpha","alpha",-1574982441),(function (p1__40079_SHARP_,p2__40080_SHARP_){
+var G__40083 = (p1__40079_SHARP_ * ((1) + (p2__40080_SHARP_ / (100))));
+return (garden.color.zero_to_one_clip.cljs$core$IFn$_invoke$arity$1 ? garden.color.zero_to_one_clip.cljs$core$IFn$_invoke$arity$1(G__40083) : garden.color.zero_to_one_clip.call(null,G__40083));
 }),amount);
 });
 garden.color.decrown_hex = (function garden$color$decrown_hex(hex){
@@ -1315,14 +1315,14 @@ return long$.toString((16));
  * Returns hex string.
  */
 garden.color.weighted_mix = (function garden$color$weighted_mix(color_1,color_2,weight){
-var vec__33718 = cljs.core.map.cljs$core$IFn$_invoke$arity$2((function (p1__33716_SHARP_){
-return (p1__33716_SHARP_ / (100));
+var vec__40104 = cljs.core.map.cljs$core$IFn$_invoke$arity$2((function (p1__40103_SHARP_){
+return (p1__40103_SHARP_ / (100));
 }),new cljs.core.PersistentVector(null, 2, 5, cljs.core.PersistentVector.EMPTY_NODE, [((100) - weight),weight], null));
-var weight_1 = cljs.core.nth.cljs$core$IFn$_invoke$arity$3(vec__33718,(0),null);
-var weight_2 = cljs.core.nth.cljs$core$IFn$_invoke$arity$3(vec__33718,(1),null);
-var vec__33721 = cljs.core.map.cljs$core$IFn$_invoke$arity$2(cljs.core.comp.cljs$core$IFn$_invoke$arity$2(garden.color.hex__GT_long,garden.color.as_hex),new cljs.core.PersistentVector(null, 2, 5, cljs.core.PersistentVector.EMPTY_NODE, [color_1,color_2], null));
-var long_1 = cljs.core.nth.cljs$core$IFn$_invoke$arity$3(vec__33721,(0),null);
-var long_2 = cljs.core.nth.cljs$core$IFn$_invoke$arity$3(vec__33721,(1),null);
+var weight_1 = cljs.core.nth.cljs$core$IFn$_invoke$arity$3(vec__40104,(0),null);
+var weight_2 = cljs.core.nth.cljs$core$IFn$_invoke$arity$3(vec__40104,(1),null);
+var vec__40107 = cljs.core.map.cljs$core$IFn$_invoke$arity$2(cljs.core.comp.cljs$core$IFn$_invoke$arity$2(garden.color.hex__GT_long,garden.color.as_hex),new cljs.core.PersistentVector(null, 2, 5, cljs.core.PersistentVector.EMPTY_NODE, [color_1,color_2], null));
+var long_1 = cljs.core.nth.cljs$core$IFn$_invoke$arity$3(vec__40107,(0),null);
+var long_2 = cljs.core.nth.cljs$core$IFn$_invoke$arity$3(vec__40107,(1),null);
 return garden.color.crown_hex(garden.color.expand_hex(garden.color.long__GT_hex(((long_1 * weight_1) + (long_2 * weight_2)))));
 });
 
